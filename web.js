@@ -1,5 +1,5 @@
 function loadHTML() {
-  var link = "/resources/botlers-web-widget.html";
+  var link = "https://cdn.rawgit.com/Artificial-Nerds/botlers-messaging-web/master/widget.html";
   var xhttp;
   if (window.XMLHttpRequest) {
     // code for modern browsers
@@ -22,6 +22,6 @@ function loadHTML() {
 function loadStyles() {
   var style = document.createElement('link');
   style.rel = 'stylesheet';
-  style.href = '/stylesheets/botlers-web-widget.css';
+  style.href = 'https://cdn.rawgit.com/Artificial-Nerds/botlers-messaging-web/master/web-styles.css';
   document.getElementsByTagName('head')[0].appendChild(style);
 }
