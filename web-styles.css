@@ -1,0 +1,53 @@
+.b-m-fixed-el {
+  position: fixed;
+  box-sizing: border-box;
+  z-index: 100000;
+}
+
+.b-m-floating-button {
+  bottom: 30px;
+  right: 30px;
+  width: 70px;
+  height: 70px;
+  user-select: none !important;
+  background-color: #247bd1;
+  border-radius: 50px;
+  border: 1px solid #247bd1;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 50px -10px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 0px 50px -10px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 50px -10px rgba(0,0,0,0.3);
+  transition: all .3s;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.b-m-floating-button:hover {
+  /* border: 1px solid white; */
+  -webkit-box-shadow: 0px 0px 50px -7px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 0px 50px -7px rgba(0,0,0,0.4);
+  box-shadow: 0px 0px 50px -7px rgba(0,0,0,0.4);
+}
+
+.b-m-chat-container {
+  top: 30px;
+  right: 30px;
+  width: 425px;
+  height: 100%;
+	height: -webkit-calc(100% - 145px);
+	height: -moz-calc(100% - 145px);
+	height: calc(100% - 145px);
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 50px -10px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 0px 50px -10px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 50px -10px rgba(0,0,0,0.3);
+}
